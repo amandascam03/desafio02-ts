@@ -1,9 +1,10 @@
+import { Center, Text } from '@chakra-ui/react'
 import './Header.css'
 
 export const Header  = () => {
   return(
-    <div className='header'>
-      Dio Bank
-    </div>
+    <Center h={"10"} bgColor={"purple.600"}>
+      <Text>Dio Bank</Text>
+    </Center>
   )
 }
