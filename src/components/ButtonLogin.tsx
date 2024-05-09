@@ -1,7 +1,8 @@
 import { Center, Button } from "@chakra-ui/react"
+import { MouseEventHandler } from "react"
 
 interface Event {
-  event: () => void
+  event: MouseEventHandler
 }
 
 export const ButtonLogin = ({ event }: Event) => {
